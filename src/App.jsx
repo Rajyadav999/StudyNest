@@ -5,6 +5,8 @@ import Hero from   './Components/Hero/Hero.jsx'
 import Program from './Components/Program/Program.jsx'
 import Title from './Components/Title/Title.jsx'
 import About from './Components/About/About.jsx'
+import Campus from './Components/campus/campus.jsx'
+import TESTIMONIALS from './Components/TESTIMONIALS/TESTIMONIALS.jsx'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -17,6 +19,9 @@ function App() {
       <Program/>
       <About/>
        <Title subTitle="Gallery" Title="Campus Photo"/>
+       <Campus/>
+       <Title subTitle="TESTIMONIALS" Title="What Students Says"/>
+       <TESTIMONIALS/>
       </div>
     </>
   )
