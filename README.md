@@ -98,3 +98,5 @@ Check versions:
 node -v
 npm -v
 git --version
+
+For detailed setup instructions, see [SETUP.md](./SETUP.md).
