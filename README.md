@@ -78,7 +78,7 @@ StudyNest is built with a vision to create a **collaborative learning ecosystem*
 ### 🎥 Video Integration
 ![Video Demo](./assets/screenshots/video-demo.gif)
 
----
+
 
 ## 🚀 Getting Started
 
@@ -92,6 +92,8 @@ Make sure you have the following installed:
 - [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)  
 - [Git](https://git-scm.com/)  
 
+---For detailed setup instructions, see [SETUP.md](./SETUP.md).
+
 Check versions:
 
 ```bash
@@ -99,4 +101,4 @@ node -v
 npm -v
 git --version
 
-For detailed setup instructions, see [SETUP.md](./SETUP.md).
+
