@@ -9,9 +9,11 @@ import Campus from './Components/campus/campus.jsx'
 import TESTIMONIALS from './Components/TESTIMONIALS/TESTIMONIALS.jsx'
 import Contact  from './Components/contact/contact.jsx'
 import Footer from './Components/footer/footer.jsx'
+import Videoplayer from './Components/videoPlayer/videoPlayer.jsx'
 function App() {
-  const [count, setCount] = useState(0)
+  const [playState, setplayState] = useState(false);
 
+   
   return (
     <>
     <Navbar/>
@@ -19,7 +21,7 @@ function App() {
     <div className ="container">
       <Title subTitle="Our Program" Title="What We Offer"/>
       <Program/>
-      <About/>
+      <About setplayState={setplayState}/>
        <Title subTitle="Gallery" Title="Campus Photo"/>
        <Campus/>
        <Title subTitle="TESTIMONIALS" Title="What Students Says"/>
@@ -28,6 +30,7 @@ function App() {
        <Contact />
        <Footer/>
       </div>
+      <Videoplayer playState={playState} setplayState={setplayState}/>
     </>
   )
 }
